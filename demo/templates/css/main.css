@@ -1,0 +1,210 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0; padding:0}
+
+.clear{clear:both}
+.left{float:left;}
+.right{float:right}
+
+.gap20px{clear:both; height:20px;}
+.gap10px{clear:both; height:10px;}
+
+#content{min-height:557px;  height:100%; clear:both;  width:1024px; margin:0 auto}
+
+body{
+
+background:url(../images/bg.png) repeat-x;
+font-family:'Nunito', Arial;
+color:#333333;
+font-size:13px;	
+height:100%
+}
+html{height:100%}	
+	
+.wrapper{
+	
+width:1000px;
+clear:both; 
+margin:0 auto;
+
+}	
+
+#topSection{
+background:url(../images/head.png) no-repeat;
+height:293px;
+}
+
+
+#top{
+
+height:51px;
+clear:both;
+ 	
+}
+
+#logo{
+float:left;
+}
+
+#top_nav{
+float:right;	
+
+}
+
+#gnav li{float:left; list-style:none; }
+#gnav li a{color:#ffffff; text-decoration:none; display:block; padding:16px 10px; height:18px}
+#gnav li a:hover, #currentSel{background:#00354b; }
+#top_nav li a{color:#ffffff;}
+#top_nav li a:hover, #top_nav .open .dropdown-toggle{background:#00354b !important; color:#ffffff !important }
+#top_nav li .dropdown-menu li a{color:#333333}
+
+
+
+#header{
+
+    background:url(../images/main_pic.png)  right bottom no-repeat;
+	height:243px;
+
+}
+
+
+#header #introTxt{
+    width:535px;	
+	color:#ffffff;
+    font-family: 'Nunito', Arial;
+	font-weight:normal;
+
+}
+
+#header #introTxt .heading{
+	font-size:22px;
+	text-align:left;	
+	clear:both;	
+	padding-top:15px;
+}
+
+#header #introTxt .desc{
+	font-size:17px;
+	text-align:left;
+	clear:both;	
+	padding-top:5px;
+}
+
+#header #introTxt .btns{
+    text-align:right;
+	padding-top:15px;	
+}
+
+.infoBox{width:440px;}
+
+
+.wide_separator{
+    background:url(../images/wide_separator.png) repeat-x;
+	height:10px;	
+	padding:10px 0;
+	clear:both;
+}
+
+
+.indexOverviewIcons{
+    clear:both;	
+}
+
+
+.indexOverviewIcons .box
+{
+    float:left; 
+	width:320px;
+	margin-left:20px;
+	display:inline-block;
+		
+}
+
+.indexOverviewIcons .box .img{float:left}
+.indexOverviewIcons .box .desc{font-size:16px; margin-left:10px; float:left; width:220px; padding-top:20px;}
+
+
+#publisher_overview_box
+{
+    background:#eeeeee;
+	border:1px solid #cccccc;
+	padding:10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-khtml-border-radius: 10px; 
+	clear:both;	
+    display:table;
+	width:100%;
+
+		
+}
+#publisher_overview_box .txt{width:760px; float:left; padding-top:5px; line-height:22px;}
+#publisher_overview_box .txt .heading{font-size:18px;}
+
+#publisher_overview_box .btn{float:right; padding-top:43px; margin-right:15px;}
+
+/*Headings */
+
+.heading1{font-size:16px; font-weight:bold;}
+
+
+
+/*Footer*/
+#footer{background:url(../images/foot_bg.png) repeat-x; color:#ffffff; height:249px; clear:both; margin-top:25px;}
+
+#footer a,#footer li, #footer div, #footer p{margin:0; padding:0}
+
+
+#footer #sub_footer{height:180px; padding-top:20px;  width:1000px; margin:0 auto}
+
+#footer #sub_footer .footer_heading{font-size:16px; font-weight:bold}
+
+
+#footer #sub_footer .section1{
+
+float:left; 
+width:350px;
+overflow:hidden;
+	
+}
+
+#footer #sub_footer .section1 p{width:300px; line-height:18px;}
+
+#footer #sub_footer .section2{
+
+float:left;
+padding-left:10px; 
+width:300px;
+background:url(../images/footer_sep.png) no-repeat top left;
+	
+}
+
+
+#footer #sub_footer a{color:#ffffff; text-decoration:none; overflow:hidden}
+#footer #sub_footer a:hover{text-decoration:underline}
+
+
+#footer .footer_bottom
+{
+    clear:both; 
+	width:1000px; margin:0 auto
+}
+
+#footer .footer_bottom .copyright{float:left; padding-top:18px;	 }
+
+#footer .footer_bottom .social_links{float:right; font-size:26px; padding-top:8px; margin:0; padding:0	}
+#footer .footer_bottom .social_links a{color:#ffffff; text-decoration:none;}
+#footer .footer_bottom .social_links a:hover{color:#0f88c5}
+
+
+.fieldGroup{width:640px; clear:both; margin:0 auto;}
+.fieldPlace{padding-top:10px; width:300px}
+.fieldPlace .input{width:200px !important}
+.username_status{margin-top:5px; width:250px;}
+
+
+.table-noborder > tbody > tr > td {border:0 !important}
+.qst_row{border-bottom:1px dotted #999999}
+.qst_val{text-align:right}

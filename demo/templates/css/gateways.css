@@ -1,0 +1,144 @@
+textarea {
+    resize: none;
+}
+#gw_editor{
+
+	clear:both;
+	margin:10px auto;
+    width:711px;
+}
+
+#gw_editor input, #gw_editor select,  #gw_editor textarea{outline:none; resize:none;}
+
+#gw_editor #gw_tabs{
+    clear:both;	
+
+}
+
+#gw_editor #gw_tabs .tabs
+{
+
+    float:right;
+	margin-right:20px;	
+}
+
+
+
+#gw_editor #gw_tabs .tab{
+    background:url(../images/tab.png) no-repeat;
+	width:137px;
+	height:34px;	
+	list-style:none;
+	float:left;
+	margin-left:1px;
+	margin-top:7px;
+	
+	font-size:12px;
+	color:#666666;
+	text-align:center;
+}
+
+#gw_editor #gw_tabs .active_tab
+{
+	background:url(../images/active_tab.png) no-repeat;
+	width:137px;
+	height:41px;	
+	list-style:none;
+	float:left;
+	margin-left:1px;
+	font-size:12px;
+	color:#666666;
+	text-align:center;
+}
+
+#gw_editor #gw_tabs .tab p{padding-top:10px; cursor:pointer}
+#gw_editor #gw_tabs .active_tab p{padding-top:15px; cursor:pointer}
+
+#gw_editor .top{
+
+	clear:both;
+	background:url(../images/frm_container_top.png) no-repeat;
+	height:17px;
+}
+
+#gw_editor .mid
+{
+    clear:both;
+	background:url(../images/frm_container_mid.jpg) repeat-y;	
+	display:table;
+	width:100%;
+	
+}
+
+
+#gw_editor .bottom
+{
+    clear:both;
+	background:url(../images/frm_container_bottom.png) no-repeat;
+	height:	12px;
+}
+
+
+#gw_step1{display:none;}
+#gw_step2{display:none}
+#gw_step3{display:none}
+
+
+
+.gw_field_row{clear:both; width:625px; margin:10px auto; padding-top:10px;}
+.gw_label{width:160px; float:left; font-size:13px; color:#000; text-align:right; padding-top:3px}
+.gw_label2{padding-top:4px; float:left}
+.gw_label .hint{color:#06F; font-weight:bold;}
+.gw_field{float:right; width:445px;}
+
+
+.gw_field .gw_bigger_input{float:left; background:url(../images/frm_bigger_input.jpg) no-repeat; width:302px; height:27px; margin-right:7px}
+.gw_field .gw_bigger_input .input{width:280px; margin-left:10px; margin-top:4px; border:0;}
+
+.gw_field .gw_med_input{float:left; background:url(../images/frm_med_input.jpg) no-repeat; width:91px; height:27px; margin-right:7px}
+.gw_field .gw_med_input .input{width:75px; margin-left:5px; margin-top:4px; border:0;}
+
+.color-picker div{
+	width: 38px;
+	border: 1px solid #d9d9d9;
+	height: 24px;
+	float: left;
+}
+
+.gw_field .gw_small_input{float:left; background:url(../images/frm_small_input.jpg) no-repeat; width:137px; height:27px; margin-right:7px}
+.gw_field .gw_small_input .input{width:50px; margin-left:5px; margin-top:4px; border:0;}
+
+.gw_field .gw_small_input2{float:left; background:url(../images/frm_small_input.jpg) no-repeat; margin-left:5px; width:137px; height:27px; margin-right:7px}
+.gw_field .gw_small_input2 .input{width:50px; margin-left:10px; margin-top:4px; border:0;}
+
+
+.gw_field .gw_big_input{float:left; background:url(../images/frm_big_input.jpg) no-repeat; width:234px; height:27px; margin-right:7px}
+.gw_field .gw_big_input .input{width:225px; margin-left:5px; margin-top:4px; border:0;}
+
+.gw_field .gw_txtarea{float:left; background:url(../images/frm_txtarea.jpg) no-repeat; width:302px; height:102px; margin-right:7px}
+.gw_field .gw_txtarea .input{width:295px; height:95px; margin-left:5px; margin-top:4px; border:0; resize:none; outline:none;}
+
+.gw_field .gw_med_input2{float:left; background:url(../images/frm_med_input2.jpg) no-repeat; width:171px; height:27px; margin-right:7px; margin-left:2px;}
+.gw_field .gw_med_input2 .input{width:160px; margin-left:5px; margin-top:4px; border:0;}
+
+.gw_field .gw_norm_input{float:left; background:url(../images/frm_norm_input.jpg) no-repeat; width:200px; height:27px;}
+.gw_field .gw_norm_input .input{width:145px; margin-left:5px; float:left; margin-top:4px; border:0;}
+
+.clear_row{clear:both; height:2px; margin:10px 0;}
+
+.gw_chkbox{margin-top:5px;}
+
+
+
+
+.gw_table{ border:0; margin:10px 0;}
+.gw_table .top{background:url(../images/gws_top.jpg) no-repeat; clear:both; height:17px;}
+.gw_table .top .caption{color:#666666; font-size:14px; font-weight:bold; clear:both; height:25px; margin-left:25px; padding-top:17px; }
+.gw_table .mid{background:url(../images/gws_mid.jpg) repeat-y; clear:both;}
+.gw_table .mid .data{width:100%; color:#666666; font-size:13px;  clear:both;}
+.gw_table .mid .data .gw_row{clear:both; height:25px; padding:7px 0; border-bottom:1px solid #d9d9d9;} 
+.gw_table .mid .data .gw_row p{padding-top:5px;}
+.gw_table .bottom{background:url(../images/gws_bottom.jpg) no-repeat; height:14px;}
+.highlight{background-color:#f7f6f6}
+
+.paging, .paging a{color:#666666; font-size:12px; font-weight:bold; text-align:center; text-decoration:none}

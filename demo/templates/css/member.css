@@ -1,0 +1,49 @@
+#page_header{
+
+    width:100%;
+	height:48px;
+	color:#ffffff;
+	
+}
+
+
+
+
+#page_header .pageTitle{color:#ffffff; float:left; font-size:16px; font-weight:bold; line-height:47px;}
+#page_header .liveCounters{color:#ffffff; float:right; font-size:13px; line-height:47px;}
+
+.api_form{width:550px; clear:both}
+.api_field{width:350px; display:inline-block; padding:0 5px}
+.api_csv_btn{margin-left:10px; clear:both}
+.pbt_field{width:200px; padding:0 5px; height:24px;}
+.pb_url_field{width:250px; padding:2px 5px; height:28px; line-height:28px; display:inline-block}
+.offersTable{width:100% !important}
+
+
+
+#dashboard_leftPanel{float:left; width:700px;  margin-top:20px;}
+#dashboard_rightPanel{float:right; width:280px;  margin-top:20px;}
+
+.performans_stats{float:left; width:350px;}
+.news_line{color:#666666; font-size:12px; padding:5px 0; border-bottom:1px solid #cccccc;}
+
+#dateContainer {width:90%; height:55px; overflow:hidden; margin:0 auto; clear:both; margin-bottom:30px; border:1px solid #cccccc; border-radius:10px}
+
+#dateContainer table{border:0; margin-bottom:5px !important; }
+#dateContainer table input[type=text]{height:24px;}
+
+.stats_date{color:#56565f; font-size:14px; font-family:Arial;  padding-bottom:5px;  margin:0px auto; font-weight:bold}
+#dateContainer table td:first-child{border-left:0 !important; }
+#dateContainer table td:last-child{border-right:0 !important; }
+
+#dateContainer table td, #dateContainer table tr{border-bottom:0}
+.dateCalc{text-align:center}
+.dateField{clear:both;text-align:center}
+.dslabel{font-size:16px; color:#666666;  width:100px; text-align:left; }
+.dslabel2{font-size:16px; color:#666666;  width:100px; text-align:center;}
+.dtx  {text-align:center  !important}
+.dtx input{width:140px; color:#333333; margin:0}
+.upbtn{text-align:center}
+
+
+._gwcolorthumb{width:40px; height:40px; float:left; margin-left:10px; border:1px solid #000000}

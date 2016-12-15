@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteRule ^lnk/([A-Za-z-0-9]*)$ download.php?file=$1 
+RewriteRule ^lnk/([A-Za-z-0-9]*)/([A-Za-z-0-9]*)$ download.php?file=$1&token=$2 
+
+

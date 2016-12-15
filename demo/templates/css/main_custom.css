@@ -1,0 +1,408 @@
+/******************************************************/
+/*  Index -->  Benefits
+/******************************************************/
+
+.h10{clear:both; height:10px;}
+.h20{clear:both; height:20px;}
+.h30{clear:both; height:30px;}
+.h40{clear:both; height:40px;}
+.h50{clear:both; height:50px;}
+.h60{clear:both; height:60px;}
+
+img { border: 0px; }
+
+.wrapper2 {
+width:1000px;
+margin: auto;
+}	
+
+
+.benefitsFull {
+width: 100%;
+height: 545px;
+background: url('../images/img2/benefits_bg.png') no-repeat center bottom #e6e6e6;
+vertical-align: middle;
+border-bottom: 1px solid #d0d0d0;
+border-top: 1px solid #d0d0d0;
+}
+
+
+.benefitsTitle {
+width: 1000px;
+height: 128px;
+text-align: center;
+
+line-height: 128px;
+color: #1b6490;
+font-weight: 400;
+font-style: normal;
+font-size: 24px;
+font-family: Nunito, Arial, sans-serif;
+}
+
+
+.benefitsTitle2 {
+height: 32px;
+text-align: left;
+margin-bottom: 10px;
+
+vertical-align: middle;
+line-height: 32px;
+color: #1b6490;
+font-weight: 400;
+font-style: normal;
+font-size: 18px;
+font-family: Nunito, Arial, sans-serif;
+}
+
+.benefitsTitle2 img {
+vertical-align: middle;
+margin-right: 15px;
+border: 0px;
+}
+
+
+.benefitsLeft {
+width: 480px;
+float: left;
+text-align: justify;
+
+line-height: 20px;
+color: #333333;
+font-weight: 400;
+font-style: normal;
+font-size: 13px;
+font-family: Arial, sans-serif;
+}
+
+.benefitsBetween {
+width: 148px;
+height: 250px;
+float: left;
+}
+
+.benefitsRight {
+width: 372px;
+float: left;
+text-align: justify;
+
+line-height: 20px;
+color: #333333;
+font-weight: 400;
+font-style: normal;
+font-size: 13px;
+font-family: Arial, sans-serif;
+}
+
+
+/******************************************************/
+/*  Buttons
+/******************************************************/
+
+
+
+.btnOrange, a.btnOrange, a.btnOrange:visited {
+padding: 12px 26px;
+line-height: 30px;
+font-family: Nunito, Arial, sans-serif;
+color: #ffffff;
+font-size: 24px;
+text-shadow: 1px 1px 0px #777777;
+border: 0px;
+text-decoration: none;
+text-transform: uppercase;
+
+border-radius: 10px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+-khtml-border-radius: 10px;
+
+box-shadow: 3px 3px 2px #666666;
+-webkit-box-shadow: 3px 3px 2px #666666;
+-moz-box-shadow: 3px 3px 2px #666666;
+
+/* Gradient bg color by http://ie.microsoft.com/testdrive/graphics/cssgradientbackgroundmaker/ */ 
+background-image: -ms-linear-gradient(bottom, #f57b15 0%, #f5b121 100%);
+background-image: -moz-linear-gradient(bottom, #f57b15 0%, #f5b121 100%);
+background-image: -o-linear-gradient(bottom, #f57b15 0%, #f5b121 100%);
+background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #f57b15), color-stop(1, #f5b121));
+background-image: -webkit-linear-gradient(bottom, #f57b15 0%, #f5b121 100%);
+background-image: linear-gradient(to top, #f57b15 0%, #f5b121 100%);
+}
+
+.btnOrange:hover, a.btnOrange:hover {
+padding: 12px 26px;
+line-height: 30px;
+font-family: Nunito, Arial, sans-serif;
+color: #ffffff;
+font-size: 24px;
+text-shadow: 1px 1px 0px #777777;
+border: 0px;
+text-decoration: none;
+text-transform: uppercase;
+cursor: pointer;
+
+box-shadow: 5px 5px 3px #666666;
+-webkit-box-shadow: 5px 5px 3px #666666;
+-moz-box-shadow: 5px 5px 3px #666666;
+
+/* Gradient bg color by http://ie.microsoft.com/testdrive/graphics/cssgradientbackgroundmaker/ */ 
+background-image: -ms-linear-gradient(bottom, #ed7714 0%, #fcbe39 100%);
+background-image: -moz-linear-gradient(bottom, #ed7714 0%, #fcbe39 100%);
+background-image: -o-linear-gradient(bottom, #ed7714 0%, #fcbe39 100%);
+background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #ed7714), color-stop(1, #fcbe39));
+background-image: -webkit-linear-gradient(bottom, #ed7714 0%, #fcbe39 100%);
+background-image: linear-gradient(to top, #ed7714 0%, #fcbe39 100%);
+}
+
+
+
+/******************************************************/
+/*  Publishers All
+/******************************************************/
+
+.title18 {
+text-align: left;
+line-height: 30px;
+color: #333333;
+font-weight: 400;
+font-style: normal;
+font-size: 18px;
+font-family: Nunito, Arial, sans-serif;
+}
+
+
+.pubBoxTop {
+float: left;
+width: 640px;
+padding: 10px 350px 10px 10px;
+height: 290px;
+margin-top: 10px;
+background: url('../images/img2/pub_laptop.png') no-repeat right center #f6f6f6;
+border: 1px solid #e0dfdf;
+
+border-radius: 10px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+-khtml-border-radius: 10px;
+}
+
+
+.pubBoxTopTitle {
+height: 80px;
+text-align: justify;
+line-height: 80px;
+color: #1681ba;
+font-weight: 400;
+font-style: normal;
+font-size: 24px;
+font-family: Nunito, Arial, sans-serif;
+}
+
+ul.pubTop {
+list-style-image: url('../images/img2/pub_tick.png');
+margin: 0px;
+padding-left: 25px;
+
+text-align: justify;
+line-height: 18px;
+color: #333333;
+font-weight: 400;
+font-style: normal;
+font-size: 14px;
+font-family: Nunito, Arial, sans-serif;
+}
+
+
+ul.pubTop li {
+margin-bottom: 15px;
+}
+
+
+.pubTitleBlue {
+width: 100%;
+height: 95px;
+background-color: #1681ba;
+
+text-align: center;
+line-height: 95px;
+color: #ffffff;
+font-weight: 400;
+font-style: normal;
+font-size: 24px;
+font-family: Nunito, Arial, sans-serif;
+text-transform: uppercase;
+}
+
+.pubTitleOrange {
+width: 100%;
+height: 95px;
+background-color: #f57b15;
+
+text-align: center;
+line-height: 95px;
+color: #ffffff;
+font-weight: 400;
+font-style: normal;
+font-size: 24px;
+font-family: Nunito, Arial, sans-serif;
+text-transform: uppercase;
+}
+
+
+.pubBoxText {
+width: 450px;
+float: left;
+vertical-align: middle;
+
+text-align: justify;
+line-height: 18px;
+color: #333333;
+font-weight: 400;
+font-style: normal;
+font-size: 14px;
+font-family: Arial, sans-serif;
+}
+
+.pubBoxTextTitle {
+height: 40px;
+margin-bottom: 5px;
+text-align: left;
+line-height: 40px;
+color: #1681ba;
+font-weight: bold;
+font-size: 18px;
+font-family: Arial, sans-serif;
+}
+
+.pubBoxTextTitle img {
+vertical-align: middle;
+margin-right: 15px;
+border: 0px;
+}
+
+.pubBoxImgR {
+width: 550px;
+float: left;
+text-align: right;
+}
+
+.pubBoxImgL {
+width: 550px;
+float: left;
+text-align: left;
+}
+
+
+
+
+/******************************************************/
+/*  About Us
+/******************************************************/
+
+
+.aboutBoxTop {
+float: left;
+width: 640px;
+padding: 10px 350px 10px 10px;
+height: 250px;
+margin-top: 10px;
+background: url('../images/img2/about_members.png') no-repeat right center #f6f6f6;
+border: 1px solid #e0dfdf;
+
+border-radius: 10px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+-khtml-border-radius: 10px;
+}
+
+
+.aboutBox {
+width: 475px;
+float: left;
+vertical-align: middle;
+text-align: justify;
+}
+
+.aboutBetween {
+width: 50px;
+float: left;
+height: 190px;
+}
+
+
+
+/******************************************************/
+/*  Advertisers
+/******************************************************/
+
+
+.advBoxTop {
+float: left;
+width: 640px;
+padding: 10px 350px 10px 10px;
+height: 200px;
+margin-top: 10px;
+background: url('../images/img2/adv_top.png') no-repeat right center #f6f6f6;
+border: 1px solid #e0dfdf;
+
+border-radius: 10px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+-khtml-border-radius: 10px;
+}
+
+
+.advBox {
+width: 300px;
+float: left;
+vertical-align: middle;
+
+text-align: center;
+line-height: 18px;
+color: #333333;
+font-weight: 400;
+font-style: normal;
+font-size: 14px;
+font-family: Nutito, Arial, sans-serif;
+}
+
+.advBoxTitle {
+text-align: center;
+line-height: 20px;
+color: #1681ba;
+font-weight: 400;
+font-style: normal;
+font-size: 18px;
+font-family: Nunito, Arial, sans-serif;
+}
+
+
+.advBetween {
+width: 50px;
+float: left;
+height: 260px;
+}
+
+hr.custom { 
+margin: 20px auto;
+border-style: solid;
+border-width: 3px;
+border-color: #1681ba;
+width: 300px;
+} 
+
+.advIncrease {
+width: 1000px;
+margin: auto;
+height: 160px;
+background: url('../images/img2/adv_increase.png') no-repeat center center #ffffff;
+
+text-align: center;
+line-height: 160px;
+color: #444444;
+font-weight: 400;
+font-style: normal;
+font-size: 24px;
+font-family: Nunito, Arial, sans-serif;
+}

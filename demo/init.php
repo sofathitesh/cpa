@@ -1,8 +1,9 @@
 <?php
 ob_start();
 session_start();
-
-error_reporting(0);
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+//error_reporting(1);
 
 ini_set("memory_limit","100M");
 require_once("includes/dbconfig.php");

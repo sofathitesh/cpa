@@ -45,7 +45,7 @@ if($Auth->checkAuth()) // if user is logged in then assign smarty vars ..
 
 	$uloggedUser = $Loggeduser->firstname." ".$Loggeduser->lastname;
 	$uRegisteredDate = $Loggeduser->date_registration;
-	
+	$uloggedUserEmail = $Loggeduser->email_address;
 	$___startTimeStamp = strtotime($uRegisteredDate);
 	$___endTimeStamp = strtotime("now");
 	
@@ -62,6 +62,7 @@ if($Auth->checkAuth()) // if user is logged in then assign smarty vars ..
 	
 	$template->assign('joined_ago', $__numberDays);
 	$template->assign('uloggedUser', $uloggedUser);
+	$template->assign('uloggedUserEmail', $uloggedUserEmail);
 	$template->assign('uloggedId', $uloggedId);
 	require_once("includes/stats.php");
 	

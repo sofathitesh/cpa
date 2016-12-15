@@ -1,3 +1,4 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -63,26 +64,26 @@ var uid = '{$uloggedId}';
 
 <script type="text/javascript" src="Charts/js/FusionCharts.js"></script>
 
-<script type='text/javascript' src='templates/js/ion.sound.js'></script>	
+<script type='text/javascript' src='templates/js/ion.sound.js'></script>  
 
 <script type="text/javascript">
 
 {literal}
 $(document).ready(function(){
-	
+  
 $.ionSound({
-	sounds: [
-		"leads"
-	],
-	
-	path: "sounds/",
-	multiPlay: true,
-	volume: "1.0"
+  sounds: [
+    "leads"
+  ],
+  
+  path: "sounds/",
+  multiPlay: true,
+  volume: "1.0"
 });
 
        
 
-	   
+     
 });
 
 {/literal}
@@ -117,8 +118,8 @@ $(document).ready(function(){
 
 
  }
-	
-	
+  
+  
 });
 {/literal}
 </script>
@@ -135,7 +136,7 @@ $(document).ready(function(){
 
 
 {if $script eq "country_breakdown"}
-<script type='text/javascript' src='http://www.google.com/jsapi'></script>	
+<script type='text/javascript' src='http://www.google.com/jsapi'></script>  
 
 
 <script type="text/javascript">
@@ -188,56 +189,6 @@ google.setOnLoadCallback(drawVisualization);
 
 
 </div>
-<div class="page-container">
-  <div class="sidebar-menu">
-      <header class="logo"> <a href="#" class="sidebar-icon"> <span class="fa fa-bars"></span> </a> <a href="{$SITE_URL}"><img src="{$SITE_URL}templates/images/logo.png" alt="" /></a>
-    </header>
-    <div style="border-top:1px solid rgba(69, 74, 84, 0.7)"></div>
-    <div class="menu">
-      <ul id="menu" >
-        <li id="menu-comunicacao" ><a href="#"><i class="fa fa-home"></i><span>Home</span></a></li>
-        <li><a href="#"><i class="fa fa-share-alt"></i><span>Campaigns</span><span class="fa fa-angle-right" style="float: right"></span></a>
-          <ul>
-            <li><a href="campaigns.php">Campaigns</a></li>
-            <li><a href="create_campaign.php">Create Campaign</a></li>
-            <li><a href="my_campaigns.php">My Campaigns</a></li>
-          </ul>
-        </li>
-        <li id="menu-comunicacao" ><a href="#"><i class="fa fa-anchor"></i><span>Tools</span><span class="fa fa-angle-double-right" style="float: right"></span></a>
-              <ul id="menu-mensagens-sub" >
-                    <li><a href="offers_api.php">Offers API</a></li>
-                    <li><a href="postback_settings.php">Postback Settings</a></li>
-                    <li><a href="postback_tester.php">Postback Tester</a></li>
-                    <li class="divider"></li>
-                    <li><a href="upload_link.php">Create Link Locker</a></li>            
-                    <li><a href="links.php">Link Locker</a></li>            
-                    <li class="divider"></li>
-                    <li><a href="create.php">Create Content Locker</a></li>                        
-                    <li><a href="gateways.php">Content Locker</a></li>                        
-              </ul>
-        </li>
-        <li id="menu-academico" ><a href="#"><i class="fa fa-envelope"></i><span>Reports</span><span class="fa fa-angle-right" style="float: right"></span></a>
-          <ul id="menu-academico-sub" >
-            <li><a href="reports.php">Daily Report</a></li>
-            <li><a href="subid_reports.php">Subid Report</a></li>
-            <li><a href="country_breakdown.php">Country Report</a></li>
-            <li><a href="camp_stats.php">Campaign Report</a></li>
-          </ul>
-        </li>
-        <li id="menu-academico" ><a href="#"><i class="fa fa-envelope"></i><span>Reports</span><span class="fa fa-angle-right" style="float: right"></span></a>
-          <ul id="menu-academico-sub" >
-            <li><a href="{$SITE_URL}account.php">Account Settings</a></li>  
-            <li><a href="sendmessage.php">Create Message</a></li>
-            <li><a href="messages.php">Messages</a></li>
-          </ul>
-        </li>        
-        <li><a href="{$SITE_URL}account.php"><i class="fa fa-envelope"></i><span>Account Settings</span></a></li>  
-        <li><a href="sendmessage.php"><i class="fa fa-envelope"></i><span>Create Message</span></a></li>
-        <li><a href="messages.php"><i class="fa fa-envelope"></i><span>Messages</span></a></li>
-      </ul>
-    </div>
-  </div>
-</div>
 <!--Nav-->
 <div id="top_nav">
 
@@ -256,10 +207,49 @@ google.setOnLoadCallback(drawVisualization);
     {else}
     
     <!--Member Menu-->
-   <ul class="nav navbar-nav navbar-right"> 
-    <li><a href="{$SITE_URL}dashboard.php">Dashboard</a></li>
+<div class="page-container">
+  <div class="sidebar-menu">
+      <header class="logo"> 
+      <div id="userPic"><img src="{$SITE_URL}templates/images/SAM_0476.JPG" align="center"></div>
+      <p><i class="glyphicon glyphicon-star"></i>{$uloggedUser}</p>
+      <p><a href="mailto:{$uloggedUserEmail}"><i class="glyphicon glyphicon-envelope"></i>{$uloggedUserEmail}</a></p>
+      <!--      <a href="#" class="sidebar-icon"> <span class="fa fa-bars"></span> </a> <a href="{$SITE_URL}"><img src="{$SITE_URL}templates/images/logo.png" alt="" /></a>-->
+    </header>
+    <div style="border-top:1px solid rgba(69, 74, 84, 0.7)"></div>
+    <div class="menu">
+      <ul id="menu" >
+        <li id="menu-comunicacao" ><a href="dashboard.php"><i class="glyphicon glyphicon-home icon"></i><span>Dashboard</span></a></li>
 
+        <li id="menu-academico" ><a href="#"><i class="glyphicon glyphicon-stats icon"></i><span>Reports</span><span class="fa fa-angle-right" style="float: right"></span></a>
+          <ul id="menu-academico-sub" >
+            <li><a href="reports.php">Daily Report</a></li>
+            <li><a href="subid_reports.php">Subid Report</a></li>
+            <li><a href="country_breakdown.php">Country Report</a></li>
+            <li><a href="camp_stats.php">Campaign Report</a></li>
+          </ul>
+        </li>
+        <li><a href="#"><i class="glyphicon glyphicon-flag icon"></i><span>Search Campaigns</span><span class="fa fa-angle-right" style="float: right"></span></a>
+          <ul>
+            <li><a href="campaigns.php">Campaigns</a></li>
+            <li><a href="create_campaign.php">Create Campaign</a></li>
+            <li><a href="my_campaigns.php">My Campaigns</a></li>
+          </ul>
+        </li>
+        <li><a href="{$SITE_URL}account.php"><i class="glyphicon  glyphicon-user icon"></i><span>Profile</span></a></li>  
+        <li><a href="sendmessage.php"><i class="glyphicon glyphicon-comment"></i><span>Contact Us</span></a></li>
+        <li><a href="messages.php"><i class="glyphicon glyphicon-comment"></i><span>Messages</span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+    {/if}
     
-<li class="dropdown">
-      
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Campaigns <span 
+</div>
+<!--end Nav-->
+
+
+</div>
+<!--Top-->
+
+{if $script ne "index"} </div> {/if}
+<script type="text/javascript" src="{$SITE_URL}templates/js/main.js"></script> 

@@ -67,7 +67,7 @@ a:hover { transition: all 200ms ease-in-out; }
 
 .page-container.sidebar-collapsed .logo {
   padding: 21px;
-  height: 136px;
+  height: 75px;
   box-sizing: border-box;
   transition: all 100ms ease-in-out;
   transition-delay: 300ms;
@@ -76,7 +76,7 @@ a:hover { transition: all 200ms ease-in-out; }
 .page-container.sidebar-collapsed-back .logo {
   width: 100%;
   padding: 21px;
-  height: 136px;
+  height: 75px;
   box-sizing: border-box;
   transition: all 100ms ease-in-out;
 }
@@ -110,13 +110,39 @@ a:hover { transition: all 200ms ease-in-out; }
   top: 0;
   left: 0;
   bottom: 0;
-  background-color: #155379;
+  background-color: #2b303a;
   color: #aaabae;
   font-family: "Segoe UI";
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
   z-index: 1;
 }
-
+#userPic img{
+  margin: 0 auto;
+  width:150px;
+  height:150px;
+  border: 1px solid;
+  border-radius: 50%;
+  margin-left: 40px;
+}
+header p{
+  margin-top: 10px;
+  color: white;
+  text-align: center;
+}
+header p a{
+  font-weight: normal;
+  color: white;
+}
+.sidebar-menu header{
+    height: 250px;
+     background: -moz-linear-gradient(89deg, rgba(43,48,58,1) 11%, rgba(21,87,92,1) 55%, rgba(8,110,112,1) 81%, rgba(0,128,128,1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0,128,128,1)), color-stop(19%, rgba(8,110,112,1)), color-stop(45%, rgba(21,87,92,1)), color-stop(89%, rgba(43,48,58,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(89deg, rgba(43,48,58,1) 11%, rgba(21,87,92,1) 55%, rgba(8,110,112,1) 81%, rgba(0,128,128,1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(89deg, rgba(43,48,58,1) 11%, rgba(21,87,92,1) 55%, rgba(8,110,112,1) 81%, rgba(0,128,128,1) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(89deg, rgba(43,48,58,1) 11%, rgba(21,87,92,1) 55%, rgba(8,110,112,1) 81%, rgba(0,128,128,1) 100%); /* ie10+ */
+    background: linear-gradient(1deg, rgba(43,48,58,1) 11%, rgba(21,87,92,1) 55%, rgba(8,110,112,1) 81%, rgba(0,128,128,1) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008080', endColorstr='#2b303a',GradientType=0 ); /* ie6-9 */ 
+}
 #menu {
   list-style: none;
   margin: 0;
@@ -144,8 +170,12 @@ a:hover { transition: all 200ms ease-in-out; }
   display: block;
   padding: 10px 20px;
   color: #aaabae;
+  font-size: 14px;
   white-space: nowrap;
   z-index: 2;
+}
+.glyphicon:empty{
+  width: 2em;
 }
 
 #menu li a:hover {
@@ -197,7 +227,7 @@ a:hover { transition: all 200ms ease-in-out; }
   opacity: 1;
 }
 
-#menu .fa { margin-right: 5px; }
+#menu .fa { margin-right: 5px; margin-top:-15px;}
 
 .logo {
   width: 100%;
@@ -209,7 +239,7 @@ a:hover { transition: all 200ms ease-in-out; }
 .sidebar-icon {
   position: relative;
   float: right;
-  margin-top: 32px;
+  margin-top: 15px;
   border: 1px solid #454a54;
   text-align: center;
   line-height: 1;

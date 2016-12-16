@@ -4,7 +4,7 @@
 <div id="page_header">
 
 <div class="pageTitle">
-Dashboard
+    Dashboard
 </div>
 
 
@@ -176,4 +176,4 @@ Welcome <b>{$uloggedUser}</b> | Today Earnings: <b>${$today_earnings}</b> | Last
 </div>
 <!--end Page content wrapper-->
 
-{include file="footer.tpl.php"}
+

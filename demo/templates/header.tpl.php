@@ -183,14 +183,7 @@ google.setOnLoadCallback(drawVisualization);
 
 <!--Top-->
 <div id="top">
-
-<div id="logo">
-
-
-
-</div>
-<!--Nav-->
-<div id="top_nav">
+    <div id="top_nav">
 
     
     {if $uloggedId lt "1"} 
@@ -204,16 +197,24 @@ google.setOnLoadCallback(drawVisualization);
     <li {if $script eq "advertisers"} id="currentSel" {/if}><a href="{$SITE_URL}advertisers.php">Advertisers</a></li>                
     <li {if $script eq "contact"} id="currentSel" {/if}><a href="{$SITE_URL}contact.php">Contact</a></li>                    
     </ul>
-    {else}
     
-    <!--Member Menu-->
+    
+</div>
+<!--end Nav-->
+
+
+</div>
+<!--Top-->
+{else}
+    
 <div class="page-container">
   <div class="sidebar-menu">
+            <a href="#" class="sidebar-icon"> <span class="fa fa-bars"></span> </a> 
       <header class="logo"> 
       <div id="userPic"><img src="{$SITE_URL}templates/images/SAM_0476.JPG" align="center"></div>
       <p><i class="glyphicon glyphicon-star"></i>{$uloggedUser}</p>
       <p><a href="mailto:{$uloggedUserEmail}"><i class="glyphicon glyphicon-envelope"></i>{$uloggedUserEmail}</a></p>
-      <!--      <a href="#" class="sidebar-icon"> <span class="fa fa-bars"></span> </a> <a href="{$SITE_URL}"><img src="{$SITE_URL}templates/images/logo.png" alt="" /></a>-->
+
     </header>
     <div style="border-top:1px solid rgba(69, 74, 84, 0.7)"></div>
     <div class="menu">
@@ -242,14 +243,7 @@ google.setOnLoadCallback(drawVisualization);
     </div>
   </div>
 </div>
+
     {/if}
-    
-</div>
-<!--end Nav-->
-
-
-</div>
-<!--Top-->
-
 {if $script ne "index"} </div> {/if}
 <script type="text/javascript" src="{$SITE_URL}templates/js/main.js"></script> 

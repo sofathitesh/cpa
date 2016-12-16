@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2016-12-16 01:39:34
+<?php /* Smarty version 2.6.26, created on 2016-12-16 12:27:15
          compiled from header.tpl.php */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'urldecode', 'header.tpl.php', 53, false),)), $this); ?>
@@ -225,14 +225,7 @@ google.setOnLoadCallback(drawVisualization);
 
 <!--Top-->
 <div id="top">
-
-<div id="logo">
-
-
-
-</div>
-<!--Nav-->
-<div id="top_nav">
+    <div id="top_nav">
 
     
     <?php if ($this->_tpl_vars['uloggedId'] < '1'): ?> 
@@ -252,11 +245,19 @@ advertisers.php">Advertisers</a></li>
     <li <?php if ($this->_tpl_vars['script'] == 'contact'): ?> id="currentSel" <?php endif; ?>><a href="<?php echo $this->_tpl_vars['SITE_URL']; ?>
 contact.php">Contact</a></li>                    
     </ul>
-    <?php else: ?>
     
-    <!--Member Menu-->
+    
+</div>
+<!--end Nav-->
+
+
+</div>
+<!--Top-->
+<?php else: ?>
+    
 <div class="page-container">
   <div class="sidebar-menu">
+            <a href="#" class="sidebar-icon"> <span class="fa fa-bars"></span> </a> 
       <header class="logo"> 
       <div id="userPic"><img src="<?php echo $this->_tpl_vars['SITE_URL']; ?>
 templates/images/SAM_0476.JPG" align="center"></div>
@@ -265,9 +266,7 @@ templates/images/SAM_0476.JPG" align="center"></div>
       <p><a href="mailto:<?php echo $this->_tpl_vars['uloggedUserEmail']; ?>
 "><i class="glyphicon glyphicon-envelope"></i><?php echo $this->_tpl_vars['uloggedUserEmail']; ?>
 </a></p>
-      <!--      <a href="#" class="sidebar-icon"> <span class="fa fa-bars"></span> </a> <a href="<?php echo $this->_tpl_vars['SITE_URL']; ?>
-"><img src="<?php echo $this->_tpl_vars['SITE_URL']; ?>
-templates/images/logo.png" alt="" /></a>-->
+
     </header>
     <div style="border-top:1px solid rgba(69, 74, 84, 0.7)"></div>
     <div class="menu">
@@ -297,15 +296,8 @@ account.php"><i class="glyphicon  glyphicon-user icon"></i><span>Profile</span><
     </div>
   </div>
 </div>
+
     <?php endif; ?>
-    
-</div>
-<!--end Nav-->
-
-
-</div>
-<!--Top-->
-
 <?php if ($this->_tpl_vars['script'] != 'index'): ?> </div> <?php endif; ?>
 <script type="text/javascript" src="<?php echo $this->_tpl_vars['SITE_URL']; ?>
 templates/js/main.js"></script> 

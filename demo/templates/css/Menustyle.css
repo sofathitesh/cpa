@@ -39,10 +39,6 @@ a:hover { transition: all 200ms ease-in-out; }
   transition-delay: 300ms;
 }
 
-.page-container.sidebar-collapsed-back {
-  padding-right: 280px;
-  transition: all 100ms linear;
-}
 
 .page-container.sidebar-collapsed .sidebar-menu {
   width: 65px;
@@ -51,23 +47,14 @@ a:hover { transition: all 200ms ease-in-out; }
 }
 
 .page-container.sidebar-collapsed-back .sidebar-menu {
-  width: 280px;
+  width: 250px;
   transition: all 100ms ease-in-out;
 }
 
-.page-container.sidebar-collapsed .sidebar-icon {
-  transform: rotate(90deg);
-  transition: all 300ms ease-in-out;
-}
-
-.page-container.sidebar-collapsed-back .sidebar-icon {
-  transform: rotate(0deg);
-  transition: all 300ms ease-in-out;
-}
 
 .page-container.sidebar-collapsed .logo {
   padding: 21px;
-  height: 75px;
+    height: 350px;
   box-sizing: border-box;
   transition: all 100ms ease-in-out;
   transition-delay: 300ms;
@@ -76,7 +63,7 @@ a:hover { transition: all 200ms ease-in-out; }
 .page-container.sidebar-collapsed-back .logo {
   width: 100%;
   padding: 21px;
-  height: 75px;
+    height: 350px;
   box-sizing: border-box;
   transition: all 100ms ease-in-out;
 }
@@ -106,7 +93,7 @@ a:hover { transition: all 200ms ease-in-out; }
 .sidebar-menu {
   position: fixed;
   float: left;
-  width: 280px;
+  width: 250px;
   top: 0;
   left: 0;
   bottom: 0;
@@ -122,7 +109,7 @@ a:hover { transition: all 200ms ease-in-out; }
   height:150px;
   border: 1px solid;
   border-radius: 50%;
-  margin-left: 40px;
+  margin-left: 25px;
 }
 header p{
   margin-top: 10px;
@@ -135,7 +122,7 @@ header p a{
 }
 .sidebar-menu header{
     height: 250px;
-     background: -moz-linear-gradient(89deg, rgba(43,48,58,1) 11%, rgba(21,87,92,1) 55%, rgba(8,110,112,1) 81%, rgba(0,128,128,1) 100%); /* ff3.6+ */
+    background: -moz-linear-gradient(89deg, rgba(43,48,58,1) 11%, rgba(21,87,92,1) 55%, rgba(8,110,112,1) 81%, rgba(0,128,128,1) 100%); /* ff3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0,128,128,1)), color-stop(19%, rgba(8,110,112,1)), color-stop(45%, rgba(21,87,92,1)), color-stop(89%, rgba(43,48,58,1))); /* safari4+,chrome */
     background: -webkit-linear-gradient(89deg, rgba(43,48,58,1) 11%, rgba(21,87,92,1) 55%, rgba(8,110,112,1) 81%, rgba(0,128,128,1) 100%); /* safari5.1+,chrome10+ */
     background: -o-linear-gradient(89deg, rgba(43,48,58,1) 11%, rgba(21,87,92,1) 55%, rgba(8,110,112,1) 81%, rgba(0,128,128,1) 100%); /* opera 11.10+ */
@@ -227,7 +214,7 @@ header p a{
   opacity: 1;
 }
 
-#menu .fa { margin-right: 5px; margin-top:-15px;}
+#menu .fa { margin-right: 5px;}
 
 .logo {
   width: 100%;
@@ -237,8 +224,8 @@ header p a{
 }
 
 .sidebar-icon {
-  position: relative;
-  float: right;
+  position: absolute;
+  right:-40px;
   margin-top: 15px;
   border: 1px solid #454a54;
   text-align: center;
@@ -259,7 +246,23 @@ header p a{
     -webkit-filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.5));
 }*/
 
-
+#page_header.lateral-menu-is-open {
+  /* translate to show the lateral menu */
+  -webkit-transform: translateX(260px);
+  -moz-transform: translateX(260px);
+  -ms-transform: translateX(260px);
+  -o-transform: translateX(260px);
+  transform: translateX(260px);
+}
+#content.lateral-menu-is-open {
+  /* translate to show the lateral menu */
+  -webkit-transform: translateX(260px);
+  -moz-transform: translateX(260px);
+  -ms-transform: translateX(260px);
+  -o-transform: translateX(260px);
+  transform: translateX(260px);
+}
 .fa-html5 {
   color: #fff;
-  marg
+  margin-left: 50px;
+}

@@ -4,7 +4,7 @@
 
 define('DB_HOST', 'localhost'); // Database Server. usually localhost
 define('DB_USER', 'root'); // Database username
-define('DB_PASSWORD', 'sofat');  // Database Password
+define('DB_PASSWORD', '');  // Database Password
 define('DB_NAME', 'demo'); // Database Name
 
 // establish a connection to the database server

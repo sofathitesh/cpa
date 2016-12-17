@@ -300,4 +300,4 @@ account.php"><i class="glyphicon  glyphicon-user icon"></i><span>Profile</span><
     <?php endif; ?>
 <?php if ($this->_tpl_vars['script'] != 'index'): ?> </div> <?php endif; ?>
 <script type="text/javascript" src="<?php echo $this->_tpl_vars['SITE_URL']; ?>
-templates/js/main.js"></script> 
+templates/js/main.js"></script>                                                                                                                         
